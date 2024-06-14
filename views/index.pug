@@ -4,7 +4,7 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", href="css/style.css")
-    script(src="https://unpkg.com/htmx.org@1.9.10", integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC", crossorigin="anonymous")
+    script(src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous")
     script(src="https://cdn.tailwindcss.com")
     title Express X
   body
@@ -14,6 +14,6 @@ html(lang="en")
         p Bringing back the old times with a twist!
         p Presenting Express X. The ExpressJS web framework but TS with HTMX in the front.
         p Includes TailwindCSS!
-        button.px-3.py-1.text-sm.uppercase.font-bold.border.rounded(class={'hover:bg-white.hover:text-black.hover:border-transparent': true })(hx-post="/clicked", hx-swap="outerHTML") Click me!
+        button.px-3.py-1.text-sm.uppercase.font-bold.border.rounded(class={'hover:bg-white.hover:text-black.hover:border-transparent': true } hx-post="/clicked" hx-swap="outerHTML") Click me!
       footer
         p.text-sm.text-neutral-600 Made with ❤️ by Juan De Jesus
