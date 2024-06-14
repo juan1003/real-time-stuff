@@ -1,0 +1,27 @@
+{
+  "name": "express-x",
+  "version": "1.0.0",
+  "description": "This is the express x web framework",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "Juan De Jesus Torres",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.16",
+    "@types/pug": "^2.0.10",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  }
+}
